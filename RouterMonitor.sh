@@ -7,7 +7,7 @@
 # #mibs
 
 # Connection variables
-routerip=10.0.0.2
+routerip=your_router_ip #replace with actual IP
 snmpversion=2c
 community=public
 refreshtime=10

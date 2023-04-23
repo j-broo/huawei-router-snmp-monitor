@@ -30,7 +30,7 @@
 
 <body>
 <?php 
-  $session = new SNMP(SNMP::VERSION_2c, "10.0.0.2", "Publ1c!");
+  $session = new SNMP(SNMP::VERSION_2c, "your_router_ip", "your_snmp_password");
   $model = $session->get("1.3.6.1.4.1.10529.5200.1.1.0");
   $freq = $session->get("1.3.6.1.4.1.10529.5200.3.28.0");
   $enbid = $session->get("1.3.6.1.4.1.10529.5200.3.35.0");

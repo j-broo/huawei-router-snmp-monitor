@@ -8,9 +8,9 @@
 
 # Connection variables
 routerip=your_router_ip #replace with actual IP
-snmpversion=2c
+snmpversion=2c #v3 is also possible, but v2c was more stable here
 community=public
-refreshtime=10
+refreshtime=10 #change this to suit your needs
 status=0
 
 # Check if router is reachable
